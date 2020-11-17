@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+    <head>
+        <meta charset  = "UTF-8"/>
+       <title>informacoes do google glass</title>
+       <link rel = "stylesheet" type = "text/css" href = "curso-html5-pacote01/projeto-glass-html5/_css/estilo.css"/>
+       <link rel = "stylesheet" type = "text/css" href = "curso-html5-pacote01/projeto-glass-html5/_css/media.css"/>
+    </head>
+    <script type="text/javascript" src="curso-html5-pacote01/projeto-glass-html5/_javascript/funcoes.js"></script>
+    <body>
+        <div id = "interface">
+            <header id = "cabecalho">
+                <hgroup>
+                    <h1>Google Glass</h1>
+                    <h2>A revolução do Google está chegando</h2>
+                </hgroup>
+                <img id = "icone"src = "curso-html5-pacote01/projeto-glass-html5/_imagens/multimidia"/>
+                <nav id = "menu">
+                    <h1>Menu Principal</h1>
+                    <ol type = "1" start="1">
+                        <li onmouseover="mudaFoto('home')" onmouseout="mudaFoto('multimidia')"><a href="index.html">Home</a></li>
+                        <li onmouseover="mudaFoto('especificacoes')" onmouseout="mudaFoto('multimidia')"><a href="specs.html">Especificações</a></li>
+                        <li onmouseover="mudaFoto('fotos')" onmouseout="mudaFoto('multimidia')"><a href="fotos.html">Fotos</a></li>
+                        <li onmouseover="mudaFoto('multimidia')" onmouseout="mudaFoto('multimidia')"><a href="multimidia.html">Multimídia</a></li>
+                        <li onmouseover="mudaFoto('contato')" onmouseout="mudaFoto('multimidia')"><a href="fale-conosco.html">Fale conosco</a></li>
+                    </ol>
+                </nav>
+            </header>
+            <section id="corpo-full">
+                <article id = "noticia-principal">
+                    <header id = "cabecalho-artigo">
+                        <hgroup>    
+                            <h3>Glass > Multimídia</h3>
+                            <h1>Sons e Vídeos</h1>
+                            <h2>por Dr.Wendller</h2>
+                            <h3 class="direita">Atualizado em 01/Maio/2013</h3>
+                        </hgroup>
+                    </header>
+                    <div id="tv-radio">
+                        <audio id="musica" controls="controls">
+                            <source src="curso-html5-pacote02/_media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg"/>
+                            <source src="curso-html5-pacote02/_media/2009-lovers-carvings-bibio.m4a" type="audio/x-aac">
+                            <source src="curso-html5-pacote02/_media/2009-lovers-carvings-bibio.ogg" type="audio/ogg">
+                            Desculpe, mas nao foi possivel carregar o audio.
+                        </audio>
+                        <video id="filme" controls="controls" poster="curso-html5-pacote01/projeto-glass-html5/_imagens/video-mini03.jpg">
+                            <source src="curso-html5-pacote02/_media/getting-started.mp4" type="video/mp4">
+                            <source src="curso-html5-pacote02/_media/getting-started.webm" type="video/webm">
+                            <source src="curso-html5-pacote02/_media/getting-started.ogv" type="video/ogg">
+                            Desculpe, mas nao foi possivel carregar o video.
+                        </video>
+                    </div>
+                </article>
+            </section>
+            <footer id = "rodape">
+                <p>Copyrigth &copy; 2013 - by Wendller </br>
+                    <a href="http://www.facebok.com/Wendller.Ferreira" target="blank">Facebook</a>
+                    | 
+                    <a href="http://www.Twitter.com/Wendller1gmail1" target="blank">Twitter</a>
+                </p>
+            </footer>
+        </div>
+    </body>
+</html>

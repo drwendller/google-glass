@@ -1,0 +1,34 @@
+@charset "UTF-8";
+div#tv-radio
+{
+    width: 900px;
+    height: 580px;
+    margin: auto;
+    background: url("../_imagens/radio-tv.png") no-repeat;
+}
+audio#musica
+{
+    outline: none;
+    display: block;
+    block-size: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,1);
+    position: relative;
+    left: 575px;
+    top: 505px;
+    width: 300px;
+}
+audio::-webkit-media-controls-timeline {
+    display: none;
+}
+audio::-webkit-media-controls-panel {
+    background-color: #36230E;
+}
+video#filme
+{
+    outline: none;
+    display: block;
+    position: relative;
+    left: 80px;
+    top: 100px;
+    width: 450px;
+}
